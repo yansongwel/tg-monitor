@@ -1,0 +1,12 @@
+[project]
+name = "tg-monitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "python-socks[asyncio]>=2.8.0",
+    "requests>=2.32.5",
+    "telethon>=1.42.0",
+]
